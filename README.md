@@ -31,7 +31,7 @@ callback that contains our animation:
 
 ``` javascript
 function move(el) {
-  var top = 0
+  var top = 0;
 
   function step() {
     el.style.top = `${top += 2}px`
